@@ -18,7 +18,7 @@ min_month AS (
 SELECT
   participant_id,
   MIN(timestamp) as first_class
-FROM `bigquery-learn-494619.EMBER.sign_ins`
+FROM `bigquery-project-494619.EMBER.sign_ins`
 GROUP BY participant_id
 ),
 ftp AS (
